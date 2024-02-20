@@ -1,0 +1,1 @@
+A website landing page made with CSS and HTML for The Odin Project (css fundamentals).
