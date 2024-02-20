@@ -1,13 +1,9 @@
 html {
-    font-family: "Roboto", sans-serif
+    font-family: "Roboto", sans-serif;
 }
 
 body {
     margin: 0px;
-}
-
-.center {
-    margin: 0px 300px;
 }
 
 a {
@@ -22,6 +18,7 @@ h1 {
 
 header {
     background-color: #1f2937;
+    padding: 0px 300px;
 }
 
 header ul {
@@ -80,4 +77,41 @@ header ul a,
     width: 800px;
     height: 200px;
     background-color: grey;
+}
+
+main {
+    padding: 0px 400px;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 70px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.info-images div {
+    width: min-content;
+    flex-shrink: 1;
+}
+
+.info-images img{
+    border-radius: 10px;
+    border: #3882f6 3px solid;
+    width: inherit;
+    width: 200px;
+    height: 200px;
 }
