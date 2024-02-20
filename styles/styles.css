@@ -79,7 +79,7 @@ header ul a,
     background-color: grey;
 }
 
-main {
+.center {
     padding: 0px 400px;
 }
 
@@ -98,14 +98,17 @@ main {
 
 .info-images {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .info-images div {
     width: min-content;
     flex-shrink: 1;
+}
+
+.info-images p {
+    color: #58575b;
 }
 
 .info-images img{
@@ -114,4 +117,59 @@ main {
     width: inherit;
     width: 200px;
     height: 200px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#quote-text {
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+#quote-author {
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 24px;
+    text-align: right;
+    margin-top: 0px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 250px;
+    padding: 40px 150px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.call-to-action h2 {
+    font-weight: bolder;
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.call-to-action p {
+    color:#e5e7eb;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0px;
+}
+
+.call-to-action button {
+    background: none;
+    border: #f9faf8 2px solid;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 10px 50px;
 }
